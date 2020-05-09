@@ -1,0 +1,26 @@
+.app{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+@font-face {
+  font-family: 'SEGA LOGO FONT';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+  }
+h1{
+    font-family: SEGA LOGO FONT;
+    font-weight: 200;
+    color :#077470;
+}
+
+.loading {
+     position: relative;
+     animation: myfirst 2s linear 2s infinite alternate;
+   }
+   
+   @keyframes myfirst {
+     from {left: 0px;}
+     to {left: 40%;}
+   }
+   
