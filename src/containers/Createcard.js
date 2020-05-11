@@ -34,9 +34,10 @@ class Createcard extends Component{
         "email":this.state.email
         }
         var  input=JSON.stringify(newRobot,null,2);
+        demoDatabase.push(input)
         fs.writeFile('../components/demoDatabase.json',input )
         
-        /* demoDatabase.push(newRobot) */
+        
 
         console.log(demoDatabase)
         
