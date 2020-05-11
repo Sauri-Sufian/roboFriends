@@ -1,6 +1,8 @@
-
+/* import Createcard from '../containers/Createcard' */
 let i =0;
-export const robots=[
+
+
+export let robots=[
   {
     username:'Sufi',
     name:"Sauri sufian",

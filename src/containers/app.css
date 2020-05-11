@@ -1,6 +1,6 @@
 .app{
     font-family: 'Times New Roman', Times, serif;
-    
+  
 }
 @font-face {
   font-family: 'SEGA LOGO FONT';
@@ -13,7 +13,19 @@ h1{
     font-weight: 200;
     color :#077470;
 }
+h3{
+  font-weight: 100;
+  font-family: sans-serif;
+}
 
+button{
+  padding: .5rem;
+  margin: 5px;
+  background-color: transparent;
+  border: .25em;
+  color :#077470;
+  box-shadow: 2px;
+}
 .loading {
      position: relative;
      animation: myfirst 2s linear 2s infinite alternate;
