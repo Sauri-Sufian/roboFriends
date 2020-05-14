@@ -2,7 +2,7 @@ import React from "react"
 import Card from './Card'
 
 
-const Cardlist=({robots})=>{
+const CardList=({robots})=>{
   try{ 
     return (
         <div>
@@ -26,4 +26,4 @@ const Cardlist=({robots})=>{
   }
 }
 
-export default Cardlist;
+export default CardList;
